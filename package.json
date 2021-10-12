@@ -1,0 +1,21 @@
+{
+  "name": "larson",
+  "version": "1.0.0",
+  "description": "This is very simple node app to get usps shiopping zone",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "usps"
+  ],
+  "author": "Brad",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "csv-writer": "^1.6.0",
+    "express": "^4.17.1",
+    "json2csv": "^5.0.5",
+    "request": "^2.88.2"
+  }
+}
